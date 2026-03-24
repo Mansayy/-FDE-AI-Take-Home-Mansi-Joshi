@@ -1,0 +1,20 @@
+# PDF parsing
+pymupdf>=1.24.0
+
+# Embeddings — served by Ollama (nomic-embed-text, 768-dim)
+# No Python embedding library needed; calls Ollama /api/embeddings via httpx
+
+# Vector database
+chromadb>=0.5.0
+
+# LLM — served by Ollama (llama3.2 default, any model via `ollama pull`)
+httpx>=0.27.0          # for Ollama HTTP calls (/api/chat, /api/embed)
+
+# MCP server
+mcp[cli]>=1.0.0
+
+# Web UI
+streamlit>=1.35.0
+
+# Config & utilities
+python-dotenv>=1.0.0
