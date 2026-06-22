@@ -1,4 +1,4 @@
-# PDF RAG MCP Server
+# MCPDoc: Document Intelligence Platform 
 
 A **fully-local** Retrieval-Augmented Generation (RAG) system that indexes a collection of PDF documents and exposes natural-language question-answering as a **Model Context Protocol (MCP)** server. Any MCP-compatible AI agent — or the built-in Streamlit UI — can query the corpus and receive grounded, cited answers. A 7-layer hallucination guard stack prevents the LLM from answering from training memory.
 
